@@ -1,0 +1,15 @@
+streamlit
+pandas
+numpy
+plotly
+requests
+beautifulsoup4
+lxml
+pyyaml
+qdrant-client
+sentence-transformers
+openai>=1.0.0
+duckdb
+statsmodels>=0.14
+pypdf
+python-docx        

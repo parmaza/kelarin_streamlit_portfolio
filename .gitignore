@@ -1,0 +1,63 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+*.ipynb
+
+# --- Streamlit ---
+.streamlit/secrets.toml        # berisi API keys, jangan pernah commit
+.streamlit/*.log
+.streamlit/config.yaml
+.streamlit/config.json
+
+# --- Editor / IDE ---
+.vscode/
+.idea/
+*.code-workspace
+
+# --- System / OS files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Logs / Temp ---
+*.log
+logs/
+tmp/
+temp/
+.cache/
+__pypackages__/
+
+# --- Build / Packaging ---
+*.egg-info/
+dist/
+build/
+
+# --- Data / Uploads ---
+data/
+datasets/
+*.csv
+*.xlsx
+*.xls
+*.json
+*.parquet
+*.pkl
+*.db
+*.sqlite
+uploads/
+output/
+exports/
+
+# --- Misc ---
+*.bak
+*.old
