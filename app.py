@@ -42,6 +42,7 @@ footer, #MainMenu { visibility: hidden; }
 
 # ✅ Sidebar Navigation
 with st.sidebar:
+    st.image("assets/kelarin_logo.png", width=180)    
     st.markdown("### 🧭 Navigation")
     st.page_link("app.py", label="🏠 Home")
     st.page_link("pages/01_RAG Doc QA — Upload & Ask.py", label="📚 RAG Doc QA — Upload & Ask")
